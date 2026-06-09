@@ -4,41 +4,39 @@ Welcome! This README provides a quick overview of OctoAcme's project management 
 
 ## Project Management Approach (Summary)
 
-OctoAcme follows a structured yet flexible project management lifecycle designed to deliver customer value efficiently while maintaining quality and team alignment.
+OctoAcme follows a comprehensive, lifecycle-based project management approach centered on five core phases: **Initiation, Planning, Execution, Release, and Retrospective**. The process prioritizes customer value, iterative delivery, clear ownership, and data-informed decisions.
 
-### Core Principles
-- **Customer-first:** Prioritize customer value and usability in all decisions
-- **Iterative delivery:** Deliver work in small, testable increments with regular feedback cycles
-- **Clear ownership:** Each project has a named Project Manager (PM) and Product Lead with defined responsibilities
-- **Data-informed decisions:** Measure impact and iterate based on evidence and metrics
-- **Psychological safety:** Encourage feedback, learning, and continuous improvement
+### Key Principles
+- **Iterative Delivery:** Work is broken into increments and delivered in cycles for feedback and improvement
+- **Clear Roles & Ownership:** Each project has a named Project Manager who coordinates delivery and a Product Manager who defines outcomes and measures success
+- **Risk & Communication Focus:** Risks, milestones, and communications are tracked with clear escalation paths
+- **Quality & Velocity:** Continuous integration, testing, and sprint-style reviews are built into the process
+- **Psychological Safety:** Teams are encouraged to provide feedback and learn from experiences
 
-### Project Lifecycle
-OctoAcme projects flow through five key phases:
+### The OctoAcme Lifecycle
 
-1. **Initiation** — Validate the business need, align stakeholders, and confirm success metrics
-2. **Planning** — Break work into shippable increments, identify dependencies, and establish timelines
-3. **Execution** — Build, test, review, and iterate with daily standups and regular demos
-4. **Release** — Deploy to production with proper verification and communication
-5. **Retrospective** — Capture learnings and convert them into actionable improvements
+**Initiation:** Projects begin with a lightweight one-pager that validates business need, aligns stakeholders, and establishes success metrics before moving to planning. This ensures all projects have clear objectives and stakeholder buy-in.
 
-### Key Roles
-- **Project Manager (PM):** Coordinates delivery, manages schedules, risks, and communications
-- **Product Manager (PdM):** Defines outcomes, prioritizes the backlog, and measures success
-- **Developers:** Implement features, collaborate on design, and maintain code quality
-- **QA/Testing:** Validate quality and acceptance criteria
-- **Stakeholders:** Provide inputs, approvals, and strategic guidance
+**Planning:** Approved work is broken into a prioritized backlog with acceptance criteria, dependencies and risks are identified, and a release timeline is defined. This phase transforms the vision into an actionable plan.
 
-### Communication Cadence
-- **Daily standups:** 15-minute team sync on progress, blockers, and dependencies
-- **Weekly PM/PdM sync:** Alignment on priorities and risks
-- **Weekly stakeholder updates:** Status, risks, and decisions needed
-- **Sprint/Milestone reviews:** Demos and team retrospectives
-- **Ad-hoc escalations:** For blockers and critical issues
+**Execution:** Teams operate on a predictable rhythm of daily standups, weekly delivery syncs, and sprint-based iterations using GitHub Projects. Pull requests follow tight conventions with automated CI testing, linting, and required approvals. Quality assurance is embedded throughout with unit tests, integration tests, end-to-end smoke tests, security scanning, and manual QA for feature acceptance.
+
+**Release:** Features are deployed to production following a standardized process that includes pre-release verification, deployment checklists, smoke tests, and documented rollback contingencies. This reduces risk and ensures observability.
+
+**Retrospective:** After each sprint, release, or milestone, teams hold a retrospective to capture learnings and convert them into actionable improvements, ensuring continuous organizational learning and process refinement.
+
+### Core Roles & Communication
+
+Three primary personas drive OctoAcme projects:
+- **Developers** implement features and fixes to meet acceptance criteria while managing technical risk
+- **Product Managers** define what should be built to deliver customer and business value
+- **Project Managers** coordinate delivery activities, manage schedules, risks, and communications
+
+Communication happens through weekly PM–PdM syncs, twice-weekly standups for delivery teams, and monthly stakeholder updates, with ad-hoc escalations for blockers and critical issues. A tiered escalation system (team → PM → Product Lead → Sponsor) ensures risks are surfaced early and resolved transparently.
 
 ## Docs Index
 
-Navigate to the process documentation that matches your current project phase or need:
+Navigate to the process documents below for detailed guidance on each phase:
 
 | Phase | Document | Purpose |
 |-------|----------|---------|
